@@ -1,8 +1,3 @@
-"""
-    Program which can solve sudoku diagram
-"""
-
-
 def solve(board):
     find = find_empty(board)
     if not find:
